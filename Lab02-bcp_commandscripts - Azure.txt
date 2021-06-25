@@ -1,0 +1,6 @@
+bcp Proveedor in SampleProveedorData.csv -S av-bd1.database.windows.net -d L2_Empresa_v2 -U AlexanderVillatoro -P Walter20! -q -c -t ","
+bcp Producto in SampleProductoData.csv -S av-bd1.database.windows.net -d L2_Empresa_v2 -U AlexanderVillatoro -P Walter20! -q -c -t ","
+bcp Cliente in SampleClienteData.csv -S av-bd1.database.windows.net -d L2_Empresa_v2 -U AlexanderVillatoro -P Walter20! -q -c -t ","
+bcp Compra in SampleCompraData.csv -S av-bd1.database.windows.net -d L2_Empresa_v2 -U AlexanderVillatoro -P Walter20! -q -c -t ","
+bcp Suministro in SampleSuministroData.csv -S av-bd1.database.windows.net -d L2_Empresa_v2 -U AlexanderVillatoro -P Walter20! -q -c -t ","
+

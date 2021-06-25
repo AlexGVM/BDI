@@ -1,0 +1,137 @@
+CAPITULO 1
+
+
+Base de datos es un conjunto de datos persistentes que es utilizado por los sistemas de aplicacion de algun individuo 
+Los datos suelen ser una representacion de entidades junto con los vinculos que existen entre estas. 
+Sitema de bases de datos: es un sistema de registros, los usuarios pueden recuperar y actualizar la info
+(Agregar o eliminar archivos en la base de datos)
+(Insertar,recuperar. modificar o eliminar datos de los archivos)
+
+Los sistemas de bases de datos dependiendo de la infraestructura puede ser sistemas de un solo usuario o multiusuario
+
+Datos de estos sistemas seran integrados y compartidos.
+
+Hardware los procesadores y la memoria principal asociada usados para apoyar la ejecución del software del sistema de base de datos
+
+Software: El componente principal es el sistema de administración de base de datos (DBMS) el cual maneja todas las soulicitudes de acceso
+a la base de datos.
+
+Usuarios(Programadores de aplicaciones): Son responsables de escribir programas de aplicacion de BD en algun lenguaje de programacion
+
+Usuarios Finales, interactuan con l sistema desde estaciones de trabajo o terminales en linea con la interfaz integrada dn el DBMS
+
+
+ADMINISTRADOR DE BASE DE DATOS (DBA)
+
+Implementacion de los controles tecnicos necesario para cumplir las politicas del DA
+
+ADMINISTRADOR DE DATOS (DA)
+
+Decide que datos se almacenan y establece politicas para mantenerlos y manejarlos
+
+PROCESADOR DE DEFINICION DE DATOS (DDL)
+
+PROCESADOR DE MANIPULACION DE DATOS  (DML)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CAPITULO 2
+
+
+Modelos de datos: Coleccion de herramientas conceptuales para decribir los datos, sus relaciones, su semantica y sus restricciones.
+Nose ayuda a describir el diseño de las bases de datos en los niveles internos, logicos y externos.
+
+Modelo relacional es ver la entidad-relacion en tablas como en SQL
+
+ENTIDAD: es un conjunto de propiedades, las entidades son del mismo tipo y que comparten las mismas propiedades o atributos.
+
+ATRIBUTOS: en cada entidad se almaneca info parecida a cada entidad, cada entidad puede tener su propio valor por cada atributo.
+
+
+TIPOS DE ATRIBUTOS:
+Simples o Compuestos: Compuestos:pueden dividirse en otros con significado propio, Simple: no divisibles.
+Almacenados o Derivados: Almacenados: Como la fecha tiene dia, mes, año, Derivados: un valor calculado a partir de otra info ya existente.
+
+Monovalorados o Multivalorados : Monovalorados: Solo un valor para cada entidad, Multivalorados: mas de un valor para la misma entidad.
+
+Obligatorios o Opcionales: Obligatorios: aqueloos que siempre deben tomar un valor, opcionales: atributos que pueden tener valores o no(nulo).
+
+IDENTIFICADOR: Atributo que determina de modo unico cada ocurrencia de esa entidad. 
+
+RELACIONES: Un conjunto de relaciones son del mismo tipo.
+
+
+TIPOS DE RELACIONES: Uno a Uno: una entidad A se asocia a lo muhco con una entidad de B y viseversa.
+
+Uno a Muchos: A se asocia con cualquier numero de entidades de B, sin embargo se puede asociar a lo mucho con una entidad de A
+Muchos a Muchos: A se asocia con cualquier numero de B, y B se asocia co cualquier numero de A.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CAPITULO 3 
+
+INTEGRIDAD RELACIONAL: conjunto de reglas o restricciones que se definen de manera que los valores de los atributos 
+de una entidad sean una representacion de la realidad.
+
+Llave candidata
+
+UNICIDAD: En cualquier momento o existen dos mismos valores.
+
+Minimalidad: Si es llave compuesta, al eliminar cualquier de sus componentes se pierde la unicidad.
+
+Toda entidad tiene una llave primaria.
+
+LLAVE PRIMARIA
+
+Es uno o un conjunto de atributos que permiten identificar de manera unica un registro.
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,70 @@
+DEL USARIO
+
+reglas especificas de una base de datos que no posiblemente no puede ser aceptas por otra base de datos
+
+DEL MODELO
+
+Es mas a nivel tecnico, son condiciones mas generales.
+
+LLAVE CANDIDATA 
+menor grado, menor atributos posibles.
+
+LLAVE PRIMARIA
+
+es un modelo relacional, permite identificar de manera unica un registro o una tabla.
+
+Valor secuencial va creciendo. 
+
+La llave primaria nos ayuda a acceder a un registro especifico.
+
+REGLAS DE INTEGRIDAD
+
+De Unicidad
+
+No puede tener valores repetidos.
+
+De Entidad
+
+No puede tener Nul, la llave primaria, porque no va a poder identificar el registro.
+
+LLAVES FORANEAS
+
+Si se tiene definida una llave primaria, deben de concordar los atributos que se van a relacionar.
+
+SI SE BORRA SALON, hay 3 estrategias, añadir nuevo salon y en curso se redirecciona a ese salon.
+2. se borra el registro del curso y el del salon.
+3.se cambia el numero y el edificio en curso a uno de los salones que no han sido eliminados.
+
+
+IDENTIDAD REFERENCIAL
+
+Que la llave foreana tome valores que ya existen o valores null, en la llave primaria que referencia. 
+
+REGLAS ADICIONALES DE INTEGRIDAD REFERENCIAL. 
+
+RESTRICCION
+
+Eliminacion: no permite borrar una tupla si tiene una llave primaria referenciada por alguna llave foreana 
+
+ACUALIZACION EN CASCADA
+
+Eliminacion: permite el borrado de una tupla T que tiene una llave primaria refenciada y boorada tambien todas las tuplas de referencia T.
+
+ANULACION: 
+
+Las foreanas toman valores NULL.
+
+SI SE BORRA A antonio las clases que el estaba asiginado se vuelve NULL en las clases que se asigno ya que su carne ya no esta alli.
+
+ 
+
+
+
+
+
+
+
+
+
+
+	
