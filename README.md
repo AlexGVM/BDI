@@ -1,1 +1,1 @@
-# Bases-de-Datos-1
+# Clase de Bases de Datos 1 en la Universidad Rafael Landivar
